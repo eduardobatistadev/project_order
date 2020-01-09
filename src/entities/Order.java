@@ -8,14 +8,14 @@ public class Order {
 	private Date moment;
 	private OrderStatus status;
 	
-	// Criação do Construtor padrão e o construtor com argumentos.
+	//1. Criação do Construtor padrão e o construtor com argumentos.
 	public Order() {
 	}
 	public Order(Date moment, OrderStatus status) {
 		this.moment = moment;
 		this.status = status;
 	}
-	// Gerar Getters e Setters
+	// 2. Gerar Getters e Setters
 	public Date getMoment() {
 		return moment;
 	}
