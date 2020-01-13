@@ -18,11 +18,12 @@ public class Order {
 	private List<OrderItem> items = new ArrayList<>();
 	
 	//1. Criação do Construtor padrão e o construtor com argumentos.
-	public Order(Date moment, OrderStatus status) {
+	public Order(Date moment, OrderStatus status, Client client) {
 		this.moment = moment;
 		this.status = status;
 		this.client = client;
 	}
+
 	// 2. Gerar Getters e Setters
 	public Date getMoment() {
 		return moment;
