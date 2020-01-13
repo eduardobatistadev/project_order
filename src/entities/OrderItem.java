@@ -7,7 +7,7 @@ public class OrderItem {
 	
 	private Product product;
 	//3. construtor com argumentos
-	public OrderItem(Integer quantity, Double price) {
+	public OrderItem(Integer quantity, Double price, Product product) {
 		this.quantity = quantity;
 		this.price = price;
 		this.product = product;
